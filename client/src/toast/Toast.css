@@ -1,0 +1,82 @@
+/* Toast Component Styles */
+
+.toaster-wrap {
+  position: fixed;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1080;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.toast-bar {
+  pointer-events: auto;
+  min-width: 300px;
+  max-width: 520px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.toast-bar.success {
+  background: #198754;
+}
+
+.toast-bar.danger {
+  background: #dc3545;
+}
+
+.toast-bar.warning {
+  background: #ffc107;
+  color: #000;
+}
+
+.toast-bar.info {
+  background: #0dcaf0;
+}
+
+.toast-bar .msg {
+  flex: 1;
+}
+
+.toast-bar .x {
+  border: 0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.toast-bar.warning .x {
+  color: #000;
+}
+
+/* Legacy toast-lite (if still used) */
+.toast-lite {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 1060;
+  background: #fff5f5;
+  color: #c53030;
+  border: 1px solid #ffd6d6;
+  padding: 10px 14px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+
+
+
+

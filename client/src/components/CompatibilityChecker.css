@@ -1,0 +1,49 @@
+/* CompatibilityChecker Component Styles */
+
+.compatibility-checker {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 16px;
+}
+
+.compatibility-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.compatibility-status {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.compatibility-details {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #dee2e6;
+}
+
+.compatibility-details .alert {
+  font-size: 13px;
+}
+
+.compatibility-details ul {
+  padding-left: 20px;
+}
+
+.compatibility-details li {
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+

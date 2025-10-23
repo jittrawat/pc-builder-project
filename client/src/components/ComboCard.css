@@ -1,0 +1,75 @@
+/* ComboCard Component Styles */
+
+.combo-card {
+  border: 1px solid #edf0f2;
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px 12px;
+  transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
+}
+
+.combo-card:hover {
+  border-color: #e6ebf0;
+  box-shadow: 0 1px 6px rgba(16, 24, 40, 0.04);
+}
+
+.combo-card.is-active {
+  background: #eaf2ff;
+  border-color: #cfe0ff;
+}
+
+/* หัวกล่อง */
+.combo-head {
+  margin-bottom: 6px;
+}
+
+.combo-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #667085;
+}
+
+.combo-price {
+  font-size: 14px;
+}
+
+.combo-hint {
+  font-size: 12px;
+}
+
+/* เนื้อหา */
+.combo-body {
+  margin-top: 2px;
+}
+
+.combo-thumb {
+  width: 38px;
+  height: 38px;
+  border-radius: 6px;
+  object-fit: contain;
+  background: #fff;
+}
+
+.combo-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 14px;
+  line-height: 1.25rem;
+}
+
+.combo-trash {
+  margin-left: 6px;
+}
+
+/* ท้ายกล่อง */
+.combo-foot {
+  margin-top: 8px;
+}
+
+
+
+
+
+
+
+

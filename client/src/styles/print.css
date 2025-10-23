@@ -1,0 +1,89 @@
+/* Print Styles */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 1.5cm;
+  }
+
+  * {
+    overflow: visible !important;
+  }
+
+  html,
+  body {
+    height: auto !important;
+    overflow: visible !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* ซ่อนทุกอย่างยกเว้น spec-modal-backdrop */
+  body > *:not(.spec-modal-backdrop) {
+    display: none !important;
+  }
+
+  .spec-modal-backdrop {
+    position: static !important;
+    background: white !important;
+    padding: 0 !important;
+    display: block !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+
+  .spec-modal {
+    box-shadow: none !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    overflow: visible !important;
+    height: auto !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .spec-modal-body {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  /* ป้องกันการตัดหน้า */
+  .spec-modal-header,
+  .spec-modal-footer {
+    page-break-inside: avoid !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid;
+  }
+
+  table {
+    page-break-inside: auto;
+  }
+
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tfoot {
+    display: table-footer-group;
+  }
+}
+
+
+
+
+
+
+
+

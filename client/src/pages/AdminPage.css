@@ -1,0 +1,30 @@
+/* AdminPage.css */
+
+.admin-toolbar .form-control,
+.admin-toolbar .btn {
+  height: 38px;
+  padding: 0 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.25;
+  border-radius: 0.5rem;
+}
+
+.table td,
+.table td * {
+  overflow: visible !important;
+  text-overflow: clip !important;
+  white-space: normal !important;
+  max-width: none !important;
+}
+
+.table-responsive {
+  overflow-x: auto !important;
+}
+
+
+
+
+
+
+
+

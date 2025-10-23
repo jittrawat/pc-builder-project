@@ -1,0 +1,96 @@
+/* Common/Shared Styles */
+
+/* ปุ่มหมวดแบบมีไอคอน */
+.cat-row {
+  background: #f2f7ff;
+  border: 1px solid #e6efff;
+  border-radius: 12px;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cat-row.active {
+  background: #eaf2ff;
+  border-color: #cfe0ff;
+}
+
+.cat-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #2c6cff;
+  background: #e9f0ff;
+  border-radius: 8px;
+}
+
+.cat-text {
+  font-weight: 600;
+}
+
+/* การ์ดสรุปที่แสดงเมื่อเลือกแล้ว */
+.selected-card {
+  background: #fff;
+  border: 1px solid #ffeaee;
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.sel-thumb {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #fff;
+}
+
+/* ตัดข้อความ 2 บรรทัด */
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ยึด sidebar */
+.sticky-sidebar {
+  position: sticky;
+  top: 72px;
+  border-radius: 14px;
+}
+
+/* ปุ่มบวก */
+.btn-plus {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  font-size: 26px;
+  line-height: 1;
+  padding: 0;
+}
+
+/* Account avatar */
+.account-avatar {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  color: #3d3d3d;
+  border: 1px solid #e9ecef;
+}
+
+.account-avatar:hover {
+  background: #f3f5f7;
+}
+
+
+
+
+
+
+
+
